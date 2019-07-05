@@ -1,15 +1,10 @@
-h1, {
-	margin: 0;
-    padding: 0;
-    font-family: 'Merriweather', serif;
-    color: #333333;
-}
+/*** New element style ***/
 
-h2, h3, h4, h5, h6, {
+h1, h2, h3, h4, h5, h6 {
 	margin: 0;
-    padding: 0;
-    font-family: 'Fira Sans', sans-serif;
-    color: #333333;
+    padding: 10px 0 20px 0;
+    font-family: 'Merriweather', sans-serif;
+    color: #3b4859;
 }
 
 p, ul, ol, li {
@@ -26,44 +21,91 @@ body {
 	background-color:#ffd011;
 }
 
-div.main {
-max-width: 960px;
-background-color: white;
-padding: 70px 100px 40px 100px;
-margin: 0 auto;
-text-align: left;
-}
-
 .hdr-image {
     display: block;
-    max-height: auto;
-    max-width: 900px;
-    background-image: url("imgs/sprint02-t4-techblog/wg-1983-003.jpg")
+}
+
+/*** Divs ***/
+div.header {
+    background-color: #3b4859;
+    padding: 20px 80px 0 80px;
+    color: #FFFFFF;
+    background-image: url("imgs/sprint02-t4-techblog/hdr-bg.jpg");
+}
+
+/* Size control */
+div.width-control {
+	max-width: 1100px;
+	padding: 0;
+    margin: 0 auto;
+}
+/* Content padding */
+div.content{
+    padding: 10px 80px;
+}
+
+/* Body */
+div.container {
+    max-width: 1100px;
+    background-color: white;
+    padding: 0;
+    margin: 0 auto;
+    text-align: left;
 }
 
 /* Navigation */
-div.nav {
-    background-color: #d4d4d4;
+
+nav {
+    color: #d4d4d4;
     font-family: 'Fira Sans', sans-serif;
-
+    padding: 0 5px 20px 80px;
+    text-decoration: none;
+    background-color: #3b4859
 }
 
-div.nav ul {
-	margin: 0;
-	padding: 0;
+
+/* Footer */
+
+footer {
+    background-color: #3b4859;
+    color: #FFFFFF;
+    padding: 20px 50px;
+    text-align: left;
 }
 
-div.nav ul li {
-	list-style: none;
-	float: left;
-	font-size: 93%;
+
+
+/* unvisited link */
+a:link {
+    color: #3b4859;
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #b7bacf;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #ffd011;
+    text-emphasis: strong;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+
+
+
+
+/* Font special cases */
+
+.monostyle {
+    font-family: monospace;
 }
 
-div.nav ul li a:link,
-div.nav ul li a:visited {
-	display: block;
-	padding: 20px 5px;
-	text-decoration: none;
-	color: #000;
-	border-right: 0px solid #bababa;
+#yellowstyle {
+    color: #ffd011;
 }
