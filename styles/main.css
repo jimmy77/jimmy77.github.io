@@ -2,15 +2,22 @@
 
 h1, h2, h3, h4, h5, h6 {
 	margin: 0;
-    padding: 10px 0 20px 0;
+    padding: 20px 0 20px 0;
+    font-family: 'Merriweather', sans-serif;
+    color: #3b4859;
+}
+
+h3, h4, h5, h6 {
+	margin: 0;
+    padding: 20px 0 20px 0;
     font-family: 'Merriweather', sans-serif;
     color: #3b4859;
 }
 
 p, ul, ol, li {
-	margin: 0 0 1em 0;
-	font-size: 105%;
-    line-height: 1.75em;
+	margin: 0 0 0.85em 0;
+	font-size: 110%;
+    line-height: 1.5em;
     font-family: 'Fira Sans', sans-serif;
     color: #333333;
 }
@@ -58,6 +65,7 @@ div.container {
 nav {
     color: #d4d4d4;
     font-family: 'Fira Sans', sans-serif;
+    margin: 20px 0 0 0 0;
     padding: 0 5px 20px 80px;
     text-decoration: none;
     background-color: #3b4859
@@ -69,10 +77,9 @@ nav {
 footer {
     background-color: #3b4859;
     color: #FFFFFF;
-    padding: 20px 50px;
+    padding: 80px 50px;
     text-align: left;
 }
-
 
 
 /* unvisited link */
@@ -98,14 +105,18 @@ a:link {
   }
 
 
-
-
 /* Font special cases */
 
 .monostyle {
     font-family: monospace;
+    font-weight: bold:
 }
 
 #yellowstyle {
     color: #ffd011;
+}
+
+.keywrd {
+    color: red;
+    font-weight: bold;
 }
