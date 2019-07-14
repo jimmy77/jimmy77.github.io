@@ -1,125 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Sprint 2 - Technical Blog </title>
-    <meta charset="UTF-8">
-
-
-    	<!-- CSS -->
-    <link href="../styles/main.css" rel="stylesheet" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Fira+Sans&display=swap" rel="stylesheet">
-  </head>
-
-  <body>
-    <div class="container">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Sprint 3 - Technical - Javascript</title>
+         	<!-- CSS -->
+         <link href="../styles/main.css" rel="stylesheet" type="text/css" />
+         <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+          <link href="https://fonts.googleapis.com/css?family=Fira+Sans&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
       
-      <!-- header -->
+            <!-- header -->
+      
+          <div class="header"> <div class="width-control">
+                <h1 id="yellowstyle">Sprint 3 - Javascript</h1>
+              </div></div>
+          
+             <!-- /header -->
+          
+           <!-- nav -->
+           <nav>
+            <a href="../index.html"> Home </a> 
+             <a href="#"> About </a>
+             <a href="../blog/sprint1-cultural.html"> S1 - Cultural</a>
+             <a href="../blog/sprint1-technical.html"> S1 - Tech </a>
+             <a href="../blog/sprint2-cultural.html"> S2 - Cultural</a>
+             <a href="../blog/sprint2-technical.html"> S2 - Tech </a>
+             <a href="../blog/sprint3-cultural.html"> S3 - Cultural</a>
+             <a href="../blog/sprint3-technical.html"> S3 - Tech </a>
 
-    <div class="header"> <div class="width-control">
-          <h1 id="yellowstyle">Sprint 2 - Technical Blog</h1>
-        </div></div>
-    
-       <!-- /header -->
-    
-     <!-- nav -->
-     <nav>
-        <a href="../index.html"> Home </a> 
-         <a href="#"> About </a>
-         <a href="../blog/sprint1-cultural.html"> S1 - Cultural</a>
-         <a href="../blog/sprint1-technical.html"> S1 - Tech </a>
-         <a href="../blog/sprint2-cultural.html"> S2 - Cultural</a>
-         <a href="../blog/sprint2-technical.html"> S2 - Tech </a>
-         <a href="../blog/sprint3-cultural.html"> S3 - Cultural</a>
-         <a href="../blog/sprint3-technical.html"> S3 - Tech </a>
-        </nav>
-      <!--/nav-->
+            </nav>
+         <!--/nav-->
+      
+      
+          <div class="hdr-image">
+          <img src="imgs/sprint02-t4-techblog/techBlogHdrImg.jpg" alt="Header image for Tech 2 challenge">
+            </div>
+          
+          <!-- Content -->
+          
+          <div class="content">
+          <h2>
+            An analogy to describe the differences between HTML and CSS
+            </h2>
+         
+             <p>
+              If you think of a house as a website then the house would be the frame, giving the house it’s form and support so you can fill the interior(with content). CSS is then the exterior cover of the house. There’s an almost limitless ways in which the outside of a house can be designed just as there are a myriad of ways that a CSS or style of a website can be applied.</p>
 
+            <h2>Explain control flow and loops using an example process from everyday life, for example 'waking up' or 'brushing your teeth'. (But not those ones).</h2>
+              <p>
+               Control flow and  loops can be explained through the medium of travelling to work. 
+              </p>
 
-    <div class="hdr-image">
-    <img src="imgs/sprint02-t4-techblog/techBlogHdrImg.jpg" alt="Header image for Tech 2 challenge">
-      </div>
-    
-    <!-- Content -->
-    
-    <div class="content">
-    <h1>
-      So what exactly is the difference between ID's and Class'?
-      </h1>
+              <p>In order to get to work there’s a list of things you need to do in a particular order before you can arrive at your work desk to begin your day. </p> 
 
-    <p>
-      In the world of webpages, html tags help give structure to a website but are limited to how the content can be displayed.
-      It can describe to a browser that a piece of information being shown is either a paragraph or a header, or that a word is bold or italicised.
-      </p>
-    <p>
-      Basic tags like <span class="keywrd">h2</span>, <span class="keywrd">p</span>, <span class="keywrd">strong</span> 
-      and <span class="keywrd">em</span> can give your page structure but can only show you text in black and with a standard system font.
-      </p>
-    <p>
-      Creating an impactful webpage requires the use of CSS selectors of which <span class="keywrd">Class</span> and <span class="keywrd">ID</span> 
-      selectors play a key part in visually defining onscreen content.
-      </p>
+              <p> The top of that list of things to do, getting out of bed, having breakfast and  having a shower would probably be the first thing to do before the next step of getting in your car to begin your commute. 
+                The order of how this is done is pretty much like how control flow  works when it comes to javascript or a lot of coding languages for that matter. Tasks need to be done in sequence for code to be executed correctly.</p>
 
-    <h2>
-      Classes are NOT unique
-      </h2> 
-    <p>
-       <ul>
-         <li>You can use the same class on multiple elements</li>
-         <li>You can use multiple classes on the same element</li>
-        </ul> 
-     </p>
-    <p>
-      Classes are the workhorses of selectors and they do the general heavy-lifting when it comes to styling. In a CSS stylesheet, a class 
-      selector is a name that has a full stop before it.  
-      </p>
-    <p>
-        You should use classes for items that you know you're going to use a lot. 
-        An example would be if you wanted to give all the paragraphs on your webpage the same styling, you would use classes.
-      </p>
-    <p>
-      Headlines would also be stylised in the same way. All H1’s will be the same, all H2’s the same, callout boxes.
-      </p>
-    <p>
-      A good rule of thumb I remember picking up from my design days was if there’s 2 or more elements that 
-      the same in terms of their heading levels, then you should apply class selector’s.
-      </p>   
-    <p>
-      The benefit of this is that you can have the same HTML element, but present it differently depending on its class or ID.
-      </p>
-    <figure>
-      <img src="imgs/sprint02-t4-techblog/class-selecta.jpg" alt="Example of a class tag being applied with a hash character">
-          <figcaption>Example of a Class tag as it appears in CSS. CSS example is from the stylesheet used on this page.</figcaption>
-        </figure>
-    
-    
-    <h2>IDs are unique</h2>
-      <p>
-          <ul>
-            <li>Each element can have only one id</li>
-            <li>Each page can have only one element with that id</li>
-            </ul>
-        </p>  
-    <p>
-      An ID selector appears in the CSS as a selector name with a hash character in front of it.
-      </p> 
-    <p>
-      The key difference between the two is that a “Class” can be applied multiple times to can be used several times, while an ID can only be used once. 
-    </p>
-    <figure>
-      <img src="imgs/sprint02-t4-techblog/id-selecta.jpg" alt="Example of an ID tag being applied with a hash character">
-      <figcaption>Example of an ID tag as it appears in CSS. CSS example is from the stylesheet used on this page.</figcaption>
-    </figure>
+              <p>
+                Loops would be the part where you repeatedly turn your key to start you car multiple times until it roars into life. Loops are events that repeat back on itself till a certain condition is met or satisfied at which point a looping instruction would stop.
+              </p>
 
-      </div>
-    <!-- /Content -->
+              <h2> Describe what the DOM is and an example of how you might interact with it.</h2>
+              <p>The Document Object Model or DOM is best though of as what lies beneath the html, css and javascript that’s on a webpage. It’s what binds them altogether. If you think of it like a cake DOM is the base layer.</p>
 
-    <footer>
+              <h2>Explain the difference between accessing data from arrays and objects.</h2>
+              <p>Arrays are actually objects. They behave kind of similarly but objects have the ability to store more information in them. They have the capability to be quite complex.
+              A general rule of thumb that I try to follow is that if you need to store a collection of properties of varying types, use an object. Otherwise, use an array.</p>
 
+               <h2> Explain what functions are and why they are useful. </h2>
+              <p>Functions  is a block of code designed to do a specific task. It’s activated when something invoke’s it(calls it). </p>
 
-    </footer>
-
-    
-    </div>
-  </body>
+            
+            </div>
+          <!-- /Content -->
+      
+          <footer>
+      
+      
+          </footer>
+      
+          
+          </div>
+    </body>
 </html>
