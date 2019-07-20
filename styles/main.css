@@ -88,10 +88,15 @@ nav {
 footer {
     background-color: #3b4859;
     color: #FFFFFF;
-    padding: 40px 50px;
+    padding: 40px 80px;
     text-align: left;
 }
 
+
+footer p {
+    color: #FFFFFF;
+    margin: 0;
+}
 
 /* unvisited link */
 a:link {
