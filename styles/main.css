@@ -1,21 +1,36 @@
 /*** New element style ***/
 
-h1  {
-	margin: 0;
-    padding: 20px 0 20px 0;
+h1, h2, h3, h4, h5, h6  {
     font-family: 'Merriweather', sans-serif;
     color: #3b4859;
 }
 
-h2, h3, h4, h5, h6 {
+
+h1  {
 	margin: 0;
-    padding: 20px 0 0 0;
-    font-family: 'Merriweather', sans-serif;
+    padding: 20px 0 3px 0;
+}
+
+h2, h3 {
+	margin: 0;
+    padding: 20px 0 3px 0;
+    color: #3b4859;
+}
+h4 {
+	margin: 0;
+    padding: 0 0 3px 0;
+    color: #3b4859;
+}
+
+h5, h6 {
+	margin: 0;
+    padding: 0 0;
     color: #3b4859;
 }
 
 p, ul, ol, li {
-	margin: 0 0 0.7em 0;
+    padding: 3px 0;
+	margin: 0;
 	font-size: 110%;
     line-height: 1.75em;
     font-family: 'Fira Sans', sans-serif;
@@ -37,7 +52,7 @@ figure {
 }
 
 figcaption {
-        font-family: 'Fira Sans', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
     font-style: italic;
 
 
@@ -125,7 +140,7 @@ a:link {
 
 .monostyle {
     font-family: monospace;
-    font-weight: bold:
+    font-weight: bold;
 }
 
 #yellowstyle {
